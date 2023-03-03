@@ -1,10 +1,10 @@
 import { Container } from "semantic-ui-react";
-import GrocerySearch from "./components/GrocerySearch";
+import ReceiptsContainer from "./containers/ReceiptsContainer";
 
 function App() {
   return (
     <Container>
-      <GrocerySearch />
+      <ReceiptsContainer />
     </Container>
   )
 }

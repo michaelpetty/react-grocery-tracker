@@ -1,7 +1,7 @@
 const searchReducer = (state, action) => {
     switch (action.type) {
         case 'CLEAN_QUERY':
-            return action
+            return action.initState
         case 'START_SEARCH':
             return {...state, loading:true, value: action.query}
         case 'FINISH_SEARCH':
